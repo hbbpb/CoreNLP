@@ -1,4 +1,4 @@
-.classes/
+/classes
 *.pyc
 *.swp
 *.swo
@@ -7,3 +7,4 @@
 .DS_Store
 .settings/**
 .idea/
+*.jar
