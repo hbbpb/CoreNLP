@@ -1056,7 +1056,7 @@ children.add(child);
       }
       jj_entries_loop:
       for (int[] jj_expentry1 : jj_expentries) {
-          int[] oldentry = (int[]) (jj_expentry1);
+          int[] oldentry = jj_expentry1;
           if (oldentry.length == jj_expentry.length) {
               for (int i = 0; i < jj_expentry.length; i++) {
                   if (oldentry[i] != jj_expentry[i]) {
